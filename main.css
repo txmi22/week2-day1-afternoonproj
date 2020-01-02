@@ -1,0 +1,141 @@
+
+header {
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+
+.nav1 {
+    font-size: large;
+    color: aliceblue;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.nav2 {
+    font-size: medium;
+  color: rgb(130, 131, 131);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 3%;
+}
+
+
+.nav1>span {
+    padding: 0px 10px;
+    color: white;
+}
+
+.nav2>span {
+    padding:  20px 20px;
+    color: white;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+} 
+
+.container-1 {
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.video {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.lower-container-1 {
+    max-width: 100%;
+    height: auto;
+    padding: 70px 70px;
+    opacity: 0.4;
+    background-color: #14171b;
+    border: 5px;
+}
+
+.lower-container-2 {
+    justify-content: center;
+    background-color:gainsboro;
+    padding: 50px 50px;
+    position: relative;
+    
+}
+#JCSAT {
+    background-color: #333;
+    opacity: 1.0;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+#SMALLSAT {
+    background-color: #333;
+    opacity: 1.0;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#NASA {
+    background-color: #333;
+    opacity: 1.0;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container-3 {
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  
+  .link1 {
+    padding: 30px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 1px 2px 30px rgb(223, 222, 222);
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+  
+  }
+  
+  
+  p {
+    font-size: large;
+    color: blue;
+  }
